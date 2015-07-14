@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="Quye"
+  id="myeclipse.1435762146984"
+  context-root="/quye"
+  j2ee-spec="6.0"
+  archive="Quye.war">
+  <attributes>
+    <attribute name="webrootdir" value="src/main/webapp" />
+  </attributes>
+</project-module>
+

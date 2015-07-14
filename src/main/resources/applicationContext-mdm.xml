@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<description>导入工程中的applicationContext文件列表</description>
+
+	<!-- required -->
+	<import resource="security/applicationContext-shiro.xml" />
+
+	<!-- optional 
+	<import resource="cache/applicationContext-ehcache.xml" />
+	<import resource="schedule/applicationContext-spring-scheduler.xml" />
+	<import resource="webservice/applicationContext-soap-server.xml" />
+	-->
+	
+</beans>
